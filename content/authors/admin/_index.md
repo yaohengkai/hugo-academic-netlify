@@ -5,7 +5,8 @@ bio: My research interests include mesoscale eddies, ocean modeling and
   artifitial intelligent.
 interests:
   - mesoscale eddies
-  - ocean modeling and artifitial intelligent
+  - ocean modeling
+  - artificial intelligent
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,7 +23,7 @@ social:
   - display:
       header: false
     link: https://blog.iloveocean.top
-    icon_pack: fab
+    icon_pack: far
     icon: blog
 organizations:
   - name: Ocean University of China
@@ -46,5 +47,5 @@ highlight_name: true
 first_name: Alice
 email: hengkai.yao@gmail.com
 ---
-Hengkai Yao is a Ph. D student of physical oceanography at Ocean University of China. His research interests include mesoscale eddies, ocean modeling and artifitial intelligent. He recently graduated and are looking for a job.
+Hengkai Yao is a Ph. D student of physical oceanography at Ocean University of China. His research interests include mesoscale eddies, ocean modeling and artificial intelligent. He recently graduated and are looking for a job.
 {style="text-align: justify;"}
