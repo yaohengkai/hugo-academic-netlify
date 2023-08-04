@@ -5,14 +5,15 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: about.avatar
-    id: about
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      # Override your profile text from `authors/admin/_index.md`?
-      text: |-
-        👋 Hi, there! I'm **Hengkai**, a physical oceanography researcher at Ocean University of China. 
+#----------------------------------------------------------
+#   - block: about.avatar
+#     id: about
+#     content:
+#       # Choose a user profile to display (a folder name within `content/authors/`)
+#       username: admin
+#       # Override your profile text from `authors/admin/_index.md`?
+#       text: |-
+#         👋 Hi, there! I'm **Hengkai**, a physical oceanography researcher at Ocean University of China. 
     #{style="font-size: 1.2rem; color: #FFB76B;} 
 #   - block: hero
 #     content:
@@ -44,12 +45,14 @@ sections:
 #         gradient_end: '#1976d2'
 #         gradient_start: '#004ba0'
 #         text_color_light: true
+#----------------------------------------------------------
   - block: about.biography
     id: about
     content:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+#----------------------------------------------------------
   - block: features
     content:
       title: Skills
@@ -78,6 +81,7 @@ sections:
           description: 50%
           icon: camera-retro
           icon_pack: fas
+#----------------------------------------------------------
   - block: experience
     content:
       title: Experience
@@ -122,6 +126,7 @@ sections:
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
+#----------------------------------------------------------
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -161,6 +166,7 @@ sections:
           url: ''
     design:
       columns: '2'
+#----------------------------------------------------------
   - block: collection
     id: posts
     content:
@@ -188,6 +194,7 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
+#----------------------------------------------------------
   - block: portfolio
     id: projects
     content:
@@ -215,6 +222,7 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+#----------------------------------------------------------
   - block: markdown
     content:
       title: Gallery
@@ -223,6 +231,7 @@ sections:
         {{< gallery album="demo" >}}
     design:
       columns: '1'
+#----------------------------------------------------------
   - block: collection
     id: featured
     content:
@@ -234,6 +243,7 @@ sections:
     design:
       columns: '2'
       view: card
+#----------------------------------------------------------
   - block: collection
     content:
       title: Recent Publications
@@ -248,6 +258,7 @@ sections:
     design:
       columns: '2'
       view: citation
+#----------------------------------------------------------
   - block: collection
     id: talks
     content:
@@ -258,18 +269,48 @@ sections:
     design:
       columns: '2'
       view: compact
+#----------------------------------------------------------
   - block: tag_cloud
     content:
       title: Popular Topics
     design:
       columns: '2'
+#----------------------------------------------------------
+  - block: markdown
+    id: Personal
+    content:
+      title: Personal
+      subtitle: Family & Social fit
+      text: |-
+        ### Marital Status
+        - Single but unavailable
+        ### Myers-Briggs Personalty Type
+        - [ENFP-A](https://www.16personalities.com/profiles/cf3894d5792bd) (2023.08.04)
+    design:
+      columns: '2'
+#----------------------------------------------------------
+  - block: people
+    content:
+      title: People I’ve Worked with
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Supervisor
+          - Researchers
+      sort_by: Params.last_name
+      sort_ascending: true
+      design:
+        show_interests: false
+        show_role: true
+        show_social: true
+        show_organizations: true
+#----------------------------------------------------------
   - block: contact
     id: contact
     content:
       title: Contact
-      subtitle:
+      subtitle: Let's talk.
       text: |-
-        Let's talk.
       # Contact (add or remove contact options as necessary)
       email: hengkai.yao@gmail.com
       phone: +(86) 186 7899 8579
@@ -315,4 +356,5 @@ sections:
         longitude: '120.4958779319867'
     design:
       columns: '2'
+#----------------------------------------------------------
 ---

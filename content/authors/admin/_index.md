@@ -40,11 +40,13 @@ education:
       institution: Ocean University of China
       year: ""
 superuser: true
-status:
-  icon: ☕️
-last_name: Wu
+# user_groups:
+#     - Supervisor
+# status:
+#   icon: ☕️
+last_name: Yao
 highlight_name: true
-first_name: Alice
+first_name: Hengkai
 email: hengkai.yao@gmail.com
 ---
 Hengkai Yao is a Ph. D student of physical oceanography at Ocean University of China. His research interests include mesoscale eddies, ocean modeling and artificial intelligent. He recently graduated and are looking for a job.
