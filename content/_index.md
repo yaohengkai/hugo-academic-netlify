@@ -19,7 +19,7 @@ sections:
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: siggraph_currents_STILL2.24460.jpg
+          filename: background-picture.jpeg
           filters:
             brightness: 0.4
           size: cover
@@ -30,6 +30,7 @@ sections:
           filename: background-video.mp4
           # Post-processing: flip the video horizontally?
           flip: false
+          loop: true
       css_class: d-flex fullscreen align-items-center
 #   - block: hero
 #     content:
@@ -110,6 +111,28 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Secretary Assistant
+          company: Ocean University of China
+          company_url: 'http://www.ouc.edu.cn'
+          company_logo: OUC
+          location: Northwest Pacific
+          date_start: '2015-09-01'
+          date_end: '2021-06-01'
+          description: 
+            Participating in assisting major projects, general projects application, mid-term review, final defense, project funding management, and other related tasks.
+
+            * Assisted teachers in conducting marine expeditions to Jiaozhou Bay twice (2012/2014.06) and successfully contributed to the application and approval of the "Marine Survey Methods" national excellent course.
+
+            * Assisted in organizing the five-year periodic evaluation meeting of the Key Laboratory of Physical Oceanography under the Ministry of Education (2016). The evaluation result was rated as "excellent," with only 7 out of 50 laboratories in the field of Earth Sciences receiving this distinction.
+
+            * Assisted in organizing the CLIVAR Open Science Conference (2016) and hosted over 600 experts in the field of ocean-atmosphere interactions. This conference significantly enhanced China's influence and voice in the field of climate change research.
+
+            * Assisted in organizing the Global Ocean Summit (2016) and hosted over 300 global experts, industry representatives, and officials from national ministries in the field of oceanography.
+
+            * Assisted in organizing and coordinating the fourth round (2016) and fifth round (2021) of disciplinary assessments conducted by the Ministry of Education. The discipline of Marine Science received an A+ rating in both evaluations.
+
+            * Promoting the development of world-class disciplines, assisted in organizing and coordinating the first international assessment of disciplines at the university, hosting expert teams from 17 domestic and international universities and research institutes.
+
         - title: On-Ship Scientist
           company: IOCAS RV KEXUE 
           company_url: 'http://www.qdio.cas.cn'
@@ -117,11 +140,14 @@ sections:
           location: Northwest Pacific
           date_start: '2016-11-10'
           date_end: '2017-01-02'
-          description: |2-
-              Responsibilities include:
-              * Analysing
-              * Modelling
-              * Deploying
+          description: 
+            We conducted a two-month comprehensive investigation in the tropical western Pacific aboard the research vessel KEXUE.
+
+            * We maintained the Western Pacific Submarine Buoy Observation Network and assisted in the recovery/deployment of 11/14 deep-sea buoys and over 300/440 observation devices.
+
+            * During the expedition, we received training on and operated various ocean observation devices, including CTD (Conductivity, Temperature, and Depth) instruments, XCTD (Expendable Conductivity, Temperature, and Depth) systems, LADCP (Lowered Acoustic Doppler Current Profiler) instruments, shipboard winches, and turbulence profiling instruments.
+
+            * Understanding the operation and management of major scientific facilities, vessel support, engineering and technical services, as well as expedition application processes, at the Institute of Oceanography, Chinese Academy of Sciences.
 
         - title: Visiting Scholar
           company: Texas A&M University
@@ -130,58 +156,58 @@ sections:
           location: College Station, TX
           date_start: '2019-03-31'
           date_end: '2021-03-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          description: Assisting in operating the high-resolution ocean-atmosphere coupled model R-CESM (Regional Community Earth System Model) in the Kuroshio Extension region (KE).
 
         - title: Visiting Scholar
-          company: Laoshan Lab
+          company: Laoshan Lab (QNLM)
           company_url: 'http://www.qnlm.ac'
-          company_logo: org-x
+          company_logo: QNLM
           location: Qingdao, China
           date_start: '2023-03-01'
           date_end: '2023-07-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          description: Studying the linear instability of the Kuroshio-Oyashio Extension current circulation.
     design:
       columns: '2'
 #----------------------------------------------------------
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
-    design:
-      columns: '2'
+#   - block: accomplishments
+#     content:
+#       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+#       title: 'Accomplish&shy;ments'
+#       subtitle:
+#       # Date format: https://wowchemy.com/docs/customization/#date-format
+#       date_format: Jan 2006
+#       # Accomplishments.
+#       #   Add/remove as many `item` blocks below as you like.
+#       #   `title`, `organization`, and `date_start` are the required parameters.
+#       #   Leave other parameters empty if not required.
+#       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+#       items:
+#         - certificate_url: https://www.coursera.org
+#           date_end: ''
+#           date_start: '2021-01-25'
+#           description: ''
+#           organization: Coursera
+#           organization_url: https://www.coursera.org
+#           title: Neural Networks and Deep Learning
+#           url: ''
+#         - certificate_url: https://www.edx.org
+#           date_end: ''
+#           date_start: '2021-01-01'
+#           description: Formulated informed blockchain models, hypotheses, and use cases.
+#           organization: edX
+#           organization_url: https://www.edx.org
+#           title: Blockchain Fundamentals
+#           url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+#         - certificate_url: https://www.datacamp.com
+#           date_end: '2020-12-21'
+#           date_start: '2020-07-01'
+#           description: ''
+#           organization: DataCamp
+#           organization_url: https://www.datacamp.com
+#           title: 'Object-Oriented Programming in R'
+#           url: ''
+#     design:
+#       columns: '2'
 #----------------------------------------------------------
   - block: collection
     id: posts
@@ -211,42 +237,42 @@ sections:
       view: compact
       columns: '2'
 #----------------------------------------------------------
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+#   - block: portfolio
+#     id: projects
+#     content:
+#       title: Projects
+#       filters:
+#         folders:
+#           - project
+#       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+#       default_button_index: 0
+#       # Filter toolbar (optional).
+#       # Add or remove as many filters (`filter_button` instances) as you like.
+#       # To show all items, set `tag` to "*".
+#       # To filter by a specific tag, set `tag` to an existing tag name.
+#       # To remove the toolbar, delete the entire `filter_button` block.
+#       buttons:
+#         - name: All
+#           tag: '*'
+#         - name: Deep Learning
+#           tag: Deep Learning
+#         - name: Other
+#           tag: Demo
+#     design:
+#       # Choose how many columns the section has. Valid values: '1' or '2'.
+#       columns: '1'
+#       view: showcase
+#       # For Showcase view, flip alternate rows?
+#       flip_alt_rows: false
 #----------------------------------------------------------
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+#   - block: markdown
+#     content:
+#       title: Gallery
+#       subtitle: ''
+#       text: |-
+#         {{< gallery album="demo" >}}
+#     design:
+#       columns: '1'
 #----------------------------------------------------------
   - block: collection
     id: featured
@@ -275,22 +301,22 @@ sections:
       columns: '2'
       view: citation
 #----------------------------------------------------------
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+#   - block: collection
+#     id: talks
+#     content:
+#       title: Recent & Upcoming Talks
+#       filters:
+#         folders:
+#           - event
+#     design:
+#       columns: '2'
+#       view: compact
 #----------------------------------------------------------
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+#   - block: tag_cloud
+#     content:
+#       title: Popular Topics
+#     design:
+#       columns: '2'
 #----------------------------------------------------------
   - block: markdown
     id: Personal
@@ -313,13 +339,13 @@ sections:
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
           - Supervisor
-          - Researchers
+          - Scholars and Collaborators
       sort_by: Params.last_name
       sort_ascending: true
     design:
-      show_interests: true
-      show_role: true
-      show_social: true
+      show_interests: false
+      show_role: false
+      show_social: false
       show_organizations: true
 #----------------------------------------------------------
   - block: contact
@@ -360,13 +386,13 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+    #   form:
+    #     provider: netlify
+    #     formspree:
+    #       id:
+    #     netlify:
+    #       # Enable CAPTCHA challenge to reduce spam?
+    #       captcha: false
 
       coordinates:
         latitude: '36.161894051256695'
