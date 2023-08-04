@@ -6,15 +6,31 @@ type: landing
 
 sections:
 #----------------------------------------------------------
-#   - block: about.avatar
-#     id: about
-#     content:
-#       # Choose a user profile to display (a folder name within `content/authors/`)
-#       username: admin
-#       # Override your profile text from `authors/admin/_index.md`?
-#       text: |-
-#         👋 Hi, there! I'm **Hengkai**, a physical oceanography researcher at Ocean University of China. 
-    #{style="font-size: 1.2rem; color: #FFB76B;} 
+  - block: about.avatar
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      text: |-
+        👋 Hi, there! I'm **Hengkai**, a physical oceanography researcher from Ocean University of China.
+        {style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
+    design:
+      background:
+        color: black
+        text_color_light: true
+        image:
+          # Add your image background to `assets/media/`.
+          filename: siggraph_currents_STILL2.24460.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: false
+        video:
+          # Name of video in `assets/media/`.
+          filename: background-video.mp4
+          # Post-processing: flip the video horizontally?
+          flip: false
+      css_class: d-flex fullscreen align-items-center
 #   - block: hero
 #     content:
 #       title: Hugo Academic Theme
@@ -290,6 +306,7 @@ sections:
       columns: '2'
 #----------------------------------------------------------
   - block: people
+    id: people
     content:
       title: People I’ve Worked with
       # Choose which groups/teams of users to display.
@@ -299,11 +316,11 @@ sections:
           - Researchers
       sort_by: Params.last_name
       sort_ascending: true
-      design:
-        show_interests: false
-        show_role: true
-        show_social: true
-        show_organizations: true
+    design:
+      show_interests: true
+      show_role: true
+      show_social: true
+      show_organizations: true
 #----------------------------------------------------------
   - block: contact
     id: contact
