@@ -1,16 +1,35 @@
 ---
-title: "An example journal article"
+title: "Introducing the New Regional Community Earth System Model, R-CESM"
 authors:
+- Dan Fu
+- Justin Small
+- Jaison Kurian
+- Yun Liu
+- Brian Kauffman
+- Abishek Gopal
+- Brian Kauffman
+- Abishek Gopal
+- Sanjiv Ramachandran
+- Zhi Shang
+- Ping Chang
+- Gokhan Danabasoglu
+- Katherine Thayer-Calder
+- Mariana Vertenstein
+- Xiaohui Ma
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+- Mingkui Li
+- Zhao Xu
+- Xiaopei Lin
+- Shaoqing Zhang
+- Lixin Wu
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
+date: "2023-08-10T00:00:00Z"
+doi: "https://doi.org/10.1175/BAMS-D-20-0024.1"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-10-05T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,13 +38,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "Bulletin of the American Meteorological Society"
+publication_short: "BAMS"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The development of high-resolution, fully coupled, regional Earth system model systems is important for improving our understanding of climate variability, future projections, and extreme events at regional scales. Here we introduce and present an overview of the newly developed Regional Community Earth System Model (R-CESM). Different from other existing regional climate models, R-CESM is based on the Community Earth System Model version 2 (CESM2) framework. We have incorporated the Weather Research and Forecasting (WRF) Model and Regional Ocean Modeling System (ROMS) into CESM2 as additional components. As such, R-CESM can be conveniently used as a regional dynamical downscaling tool for the global CESM solutions or/and as a standalone high-resolution regional coupled model. The user interface of R-CESM follows that of CESM, making it readily accessible to the broader community. Among countless potential applications of R-CESM, we showcase here a few preliminary studies that illustrate its novel aspects and value. These include 1) assessing the skill of R-CESM in a multiyear, high-resolution, regional coupled simulation of the Gulf of Mexico; 2) examining the impact of WRF and CESM ocean–atmosphere coupling physics on tropical cyclone simulations; and 3) a convection-permitting simulation of submesoscale ocean–atmosphere interactions. We also discuss capabilities under development such as (i) regional refinement using a high-resolution ROMS nested within global CESM and (ii) “online” coupled data assimilation. Our open-source framework (publicly available at https://github.com/ihesp/rcesm1) can be easily adapted to a broad range of applications that are of interest to the users of CESM, WRF, and ROMS.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Source Themes
@@ -34,8 +53,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+url_pdf: https://journals.ametsoc.org/view/journals/bams/102/9/BAMS-D-20-0024.1.xml?tab_body=fulltext-display#container-56956-item-56959
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -62,7 +81,7 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
 {{% callout note %}}

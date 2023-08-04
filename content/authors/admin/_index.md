@@ -1,6 +1,6 @@
 ---
-title: Hengkai Yao 姚恒恺
-role: Ph. D
+title: Hengkai Yao
+role: Physical oceanography researcher
 bio: My research interests include mesoscale eddies, ocean modeling and
   artifitial intelligent.
 interests:
@@ -13,7 +13,7 @@ social:
     link: /#contact
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user= ujcYod0AAAAJ
+    link: https://scholar.google.com/citations?user=ujcYod0AAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/yaohengkai

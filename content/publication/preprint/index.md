@@ -1,12 +1,12 @@
 ---
-title: "An example preprint / working paper"
+title: "On the Vertical Structure of Mesoscale Eddies in the Kuroshio-Oyashio Extension"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
-doi: ""
+date: "2023-08-03T00:00:00Z"
+doi: "10.22541/essoar.169082209.93234453/v1"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2023-07-31T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -15,29 +15,29 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "ESS Open Archive"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Vertical structure of mesoscale eddies is key to the eddy-induced heat/material transport that further affects the climate and marine ecosystem. This study explores the vertical structure of mesoscale eddies in the Kuroshio-Oyashio Extension region (KOE) and its underlying dynamics. By applying the hierarchical ascending classification to the observational and reanalysis datasets, we classify mesoscale eddies with three distinct kinds of vertical structures. Each kind of eddies exhibits clear spatial aggregation along a distinct zonal band. Eddies have core depths of 100-300 m in the northern part of the KOE and core depths of 300-500 m and 0-100 m in the southern. The eddy splitting or merging does not introduce new kind of eddy vertical structure but causes large intra-kind variability. The different kinds of eddy vertical structures can be partially accounted for by the inference from the baroclinic instabilities at the eddy generation sites.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Mesoscale eddies are swirling motions with a radius ranging from several tens to a hundred of kilometers. The mesoscale eddies can cause strong vertical displacement of isopycnals, yet the vertical structure of such displacement has not been well understood. This study examines the vertical structures of mesoscale eddies in the Kuroshio-Oyashio Extension region based on the observational and reanalysis datasets. Mesoscale eddies with three distinct kinds of vertical structures are identified.
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+# - name: Custom Link
+#   url: https://essopenarchive.org/users/644096/articles/657132-on-the-vertical-structure-of-mesoscale-eddies-in-the-kuroshio-oyashio-extension
+url_pdf: https://essopenarchive.org/users/644096/articles/657132/master/file/data/969714_0_merged_1690357135/969714_0_merged_1690357135.pdf
+# url_code: '#'
+# url_dataset: '#'
+# url_poster: '#'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -59,7 +59,7 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
 {{% callout note %}}
