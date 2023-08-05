@@ -119,7 +119,7 @@ sections:
           date_start: '2015-09-01'
           date_end: '2021-06-01'
           description: 
-            Participating in assisting major projects, general projects application, mid-term review, final defense, project funding management, and other related tasks.
+            Participating in assisting major projects, general projects application, mid-term review, final defense, project funding management, and other related tasks supervised by Dr. Ma and Prof. Wu.
 
             * Assisted teachers in conducting marine expeditions to Jiaozhou Bay twice (2012/2014.06) and successfully contributed to the application and approval of the "Marine Survey Methods" national excellent course.
 
@@ -141,7 +141,7 @@ sections:
           date_start: '2016-11-10'
           date_end: '2017-01-02'
           description: 
-            We conducted a two-month comprehensive investigation in the tropical western Pacific aboard the research vessel KEXUE.
+            We conducted a two-month comprehensive investigation in the tropical western Pacific aboard the research vessel KEXUE supervised by Prof. Wang.
 
             * We maintained the Western Pacific Submarine Buoy Observation Network and assisted in the recovery/deployment of 11/14 deep-sea buoys and over 300/440 observation devices.
 
@@ -156,7 +156,7 @@ sections:
           location: College Station, TX
           date_start: '2019-03-31'
           date_end: '2021-03-31'
-          description: Assisting in operating the high-resolution ocean-atmosphere coupled model R-CESM (Regional Community Earth System Model) in the Kuroshio Extension region (KE).
+          description: Assisting in operating the high-resolution ocean-atmosphere coupled model R-CESM (Regional Community Earth System Model) in the Kuroshio Extension region (KE) supervised by Prof. Chang.
 
         - title: Visiting Scholar
           company: Laoshan Lab (QNLM)
@@ -165,7 +165,7 @@ sections:
           location: Qingdao, China
           date_start: '2023-03-01'
           date_end: '2023-07-31'
-          description: Studying the linear instability of the Kuroshio-Oyashio Extension current circulation.
+          description: Studying the linear instability of the Kuroshio-Oyashio Extension current circulation supervised by Prof. Jing.
     design:
       columns: '2'
 #----------------------------------------------------------
