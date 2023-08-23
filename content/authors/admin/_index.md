@@ -25,6 +25,9 @@ social:
     link: https://blog.iloveocean.top
     icon_pack: far
     icon: blog
+- icon: pager
+    icon_pack: far
+    link: https://home.iloveocean.top
 organizations:
   - name: Ocean University of China
     url: https://www.ouc.edu.cn/
