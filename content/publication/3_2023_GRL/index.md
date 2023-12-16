@@ -2,6 +2,9 @@
 title: "On the Vertical Structure of Mesoscale Eddies in the Kuroshio-Oyashio Extension"
 authors:
 - admin
+- Chao Ma
+- Zhao Jing
+- Zhengguang Zhang
 date: "2023-12-16T00:00:00Z"
 doi: "10.1029/2023GL105642"
 
@@ -16,7 +19,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Geophysical Research Letters"
-publication_short: "GRL"
+# publication_short: "GRL"
 
 abstract: Vertical structure of mesoscale eddies is key to the eddy-induced heat/material transport that further affects the climate and marine ecosystem. This study explores the vertical structure of mesoscale eddies in the Kuroshio-Oyashio Extension region (KOE) and its underlying dynamics. By applying the hierarchical ascending classification to the observational and reanalysis data sets, we classify mesoscale eddies with three distinct kinds of vertical structures. Each kind of eddies exhibits clear spatial aggregation along a distinct zonal band. Eddies have core depths of 100–300 m in the northern part of the KOE and core depths of 300–500 m and 0–100 m in the southern. The eddy splitting or merging does not introduce new kind of eddy vertical structure but causes large intra-kind variability. The different kinds of eddy vertical structures can be partially accounted for by the baroclinic instabilities at the eddy generation sites and local adjustment process.
 
