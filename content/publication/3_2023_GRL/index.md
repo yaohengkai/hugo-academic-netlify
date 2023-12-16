@@ -2,23 +2,23 @@
 title: "On the Vertical Structure of Mesoscale Eddies in the Kuroshio-Oyashio Extension"
 authors:
 - admin
-date: "2023-08-03T00:00:00Z"
-doi: "10.22541/essoar.169082209.93234453/v1"
+date: "2023-12-16T00:00:00Z"
+doi: "10.1029/2023GL105642"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-07-31T00:00:00Z"
+publishDate: "2023-12-28"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "ESS Open Archive"
-publication_short: ""
+publication: "Geophysical Research Letters"
+publication_short: "GRL"
 
-abstract: Vertical structure of mesoscale eddies is key to the eddy-induced heat/material transport that further affects the climate and marine ecosystem. This study explores the vertical structure of mesoscale eddies in the Kuroshio-Oyashio Extension region (KOE) and its underlying dynamics. By applying the hierarchical ascending classification to the observational and reanalysis datasets, we classify mesoscale eddies with three distinct kinds of vertical structures. Each kind of eddies exhibits clear spatial aggregation along a distinct zonal band. Eddies have core depths of 100-300 m in the northern part of the KOE and core depths of 300-500 m and 0-100 m in the southern. The eddy splitting or merging does not introduce new kind of eddy vertical structure but causes large intra-kind variability. The different kinds of eddy vertical structures can be partially accounted for by the inference from the baroclinic instabilities at the eddy generation sites.
+abstract: Vertical structure of mesoscale eddies is key to the eddy-induced heat/material transport that further affects the climate and marine ecosystem. This study explores the vertical structure of mesoscale eddies in the Kuroshio-Oyashio Extension region (KOE) and its underlying dynamics. By applying the hierarchical ascending classification to the observational and reanalysis data sets, we classify mesoscale eddies with three distinct kinds of vertical structures. Each kind of eddies exhibits clear spatial aggregation along a distinct zonal band. Eddies have core depths of 100–300 m in the northern part of the KOE and core depths of 300–500 m and 0–100 m in the southern. The eddy splitting or merging does not introduce new kind of eddy vertical structure but causes large intra-kind variability. The different kinds of eddy vertical structures can be partially accounted for by the baroclinic instabilities at the eddy generation sites and local adjustment process.
 
 # Summary. An optional shortened abstract.
 summary: Mesoscale eddies are swirling motions with a radius ranging from several tens to a hundred of kilometers. The mesoscale eddies can cause strong vertical displacement of isopycnals, yet the vertical structure of such displacement has not been well understood. This study examines the vertical structures of mesoscale eddies in the Kuroshio-Oyashio Extension region based on the observational and reanalysis datasets. Mesoscale eddies with three distinct kinds of vertical structures are identified.
@@ -29,8 +29,8 @@ featured: true
 
 links:
 # - name: Custom Link
-#   url: https://essopenarchive.org/users/644096/articles/657132-on-the-vertical-structure-of-mesoscale-eddies-in-the-kuroshio-oyashio-extension
-url_pdf: https://essopenarchive.org/users/644096/articles/657132/master/file/data/969714_0_merged_1690357135/969714_0_merged_1690357135.pdf
+#   url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023GL105642
+url_pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2023GL105642
 # url_code: '#'
 # url_dataset: '#'
 # url_poster: '#'
